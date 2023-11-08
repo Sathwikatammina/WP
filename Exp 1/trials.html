@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Employee</h2>
+
+<form action="/action_page.php" novalidate>
+  <label for="fname">Employee ID:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Password:</label><br>
+  <input type="password" id="lname" name="lname" value="Doe"><br><br>
+  <button onclick="myFunction()">Click me</button>
+
+	<p id="demo"></p>
+
+	<script>
+	function myFunction() {
+		document.getElementById("demo").innerHTML = "Hello World";
+	}
+	</script>
+	</form> 
+
+
+<h2>Student</h2>
+
+<form action="/action_page.php">
+  <label for="fname">Student ID:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Password:</label><br>
+  <input type="password" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>
